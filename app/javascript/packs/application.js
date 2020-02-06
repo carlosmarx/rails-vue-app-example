@@ -4,7 +4,6 @@
 // that code so it'll be compiled.
 
 require("@rails/ujs").start()
-// require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
@@ -17,10 +16,4 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 // import '../src'
 
-import Vue from 'vue'
-
-Vue.component('Home', () => import('../src/components/Home.vue'))
-
-const app = new Vue({
-  el: '#app'
-});
+import '../src'
