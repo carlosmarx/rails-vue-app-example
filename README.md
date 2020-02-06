@@ -1,24 +1,19 @@
-# README
+## steps are necessary to get the application up and running.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* clone this repo
 
-Things you may want to cover:
+* cd rails-vue-app-example
 
-* Ruby version
+* bundle
 
-* System dependencies
+* yarn install
 
-* Configuration
+* make run
 
-* Database creation
+### Dependencies
 
-* Database initialization
+* ruby 2.6.5
 
-* How to run the test suite
+* rails 6.0.2
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* yarn 1.21.1
